@@ -11,7 +11,7 @@ form.addEventListener('submit',e=>{
     searchValue=search.value.trim();
 
     if(!searchValue){
-        alert('there is nothing to search');
+        alert('Type something to search');
     }
     else{
         searchSong(searchValue);
@@ -73,7 +73,7 @@ async function getLyrics(artist,songTitle){
                        <p>${lyrics}</p>
     `}
     catch(err){
-        alert("lyrics are not found for this song :(")
+        alert("lyrics not found :(")
     }
 
 }
