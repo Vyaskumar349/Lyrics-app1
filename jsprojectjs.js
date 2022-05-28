@@ -56,7 +56,7 @@ result.addEventListener('click',e=>{
 alert("lyrics are not found for this song :( ")
         }
         
-        getLyrics(artist,songTitle);
+      
     }
 })
 
